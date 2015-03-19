@@ -61,7 +61,7 @@ def book(name,pwd,mouth,day,time,cdinfoid):
 
 
 if __name__ == "__main__":
-    book("2014216003","123456","03","22","00017","2019")
+    book("yourusername","yourpassword","03","22","00017","2019")
 
 
 
