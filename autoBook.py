@@ -12,7 +12,7 @@ def autoBook():
         print now        
         if (cmp(start,now)<0 and cmp(now,end)<0):
             print "第"+str(count)+"次尝试："+now
-            count++
+            count+=1
             book("username1","psw1","03","21","00029","2019")#00029是下午4：00~5：00那场吗？
             book("username1","psw1","03","21","00029","2018")
             book("username2","psw2","03","21","00030","2018")#00029是时间编号，00017是早上最早的一场
